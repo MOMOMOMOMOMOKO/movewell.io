@@ -1,0 +1,53 @@
+{
+    "exercise_monitoring": [
+      {
+        "gender": "Male",
+        "age_group": {
+          "from": 0,
+          "to": 65
+        },
+        "criteria": {
+          "exercise_type": "Seated Marching",
+          "frequency_per_week": 5,
+          "duration_per_session": "20 minutes"
+        }
+      },
+      {
+        "gender": "Female",
+        "age_group": {
+          "from": 65,
+          "to": 75
+        },
+        "criteria": {
+          "exercise_type": "Seated Leg Lifts",
+          "frequency_per_week": 5,
+          "duration_per_session": "15 minutes"
+        }
+      },
+      {
+        "gender": "Male",
+        "age_group": {
+          "from": 75,
+          "to": 80
+        },
+        "criteria": {
+          "exercise_type": "Chair Yoga",
+          "frequency_per_week": 3,
+          "duration_per_session": "20 minutes"
+        }
+      },
+      {
+        "gender": "Female",
+        "age_group": {
+          "from": 80,
+          "to": null
+        },
+        "criteria": {
+          "exercise_type": "Seated Arm Circles",
+          "frequency_per_week": 3,
+          "duration_per_session": "15 minutes"
+        }
+      }
+    ]
+  }
+  

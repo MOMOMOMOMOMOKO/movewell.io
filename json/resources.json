@@ -1,0 +1,74 @@
+{
+	"resources": [
+		{
+			"title": "The Mayo Clinic: Fitness Resources",
+			"link": "https://www.mayoclinic.org/healthy-lifestyle/fitness/resources/hlv-20049447",
+			"image": "https://assets.mayoclinic.org/content/dam/mayoclinic/logos/mayo-clinic-logo.svg"
+		},
+		{
+			"title": "Harvard Health Publishing: Fitness and Exercise",
+			"link": "https://www.health.harvard.edu/staying-healthy/fitness-and-exercise",
+			"image": "https://www.health.harvard.edu/img/logos/NEW-HHP_logo_stack4.svg"
+		},
+		{
+			"title": "WebMD: Fitness and Exercise",
+			"link": "https://www.webmd.com/fitness-exercise/features/fitness-and-exercise",
+			"image": "https://img.lb.wbmdstatic.com/webmd_static_vue/091e9c5e8167c6d8/img/webmd-logo-white.845b57f8.svg"
+		},
+		{
+			"title": "The National Institutes of Health: Physical Activity",
+			"link": "https://www.nhlbi.nih.gov/health/health-topics/topics/phys/phys-activity",
+			"image": "https://www.nhlbi.nih.gov/themes/custom/nhlbi/images/NHLBI-logo-75-year.svg"
+		},
+		{
+			"title": "The American College of Sports Medicine: Exercise and Physical Activity",
+			"link": "https://www.acsm.org/education/exercise-science/exercise-and-physical-activity",
+			"image": ""
+		},
+		{
+			"title": "The Centers for Disease Control and Prevention: Physical Activity for Everyone",
+			"link": "https://www.cdc.gov/physicalactivity/basics/adults/index.htm",
+			"image": "https://www.cdc.gov/physicalactivity/activepeoplehealthynation/images/aphn-logo-color-small.jpg"
+		},
+		{
+			"title": "The National Academy of Sciences, Engineering, and Medicine: The Science of Exercise",
+			"link": "https://www.nap.edu/catalog/25354/the-science-of-exercise",
+			"image": "https://nap.nationalacademies.org/cover/26848/200"
+		},
+		{
+			"title": "The American Council on Exercise: Exercise Library",
+			"link": "https://www.acefitness.org/education-and-resources/exercise-library/",
+			"image": ""
+		},
+		{
+			"title": "MyFitnessPal: Diet and Exercise Tracker",
+			"link": "https://www.myfitnesspal.com/",
+			"image": "https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-slice%402x.e3eec8a8.png&w=1920&q=75"
+		},
+		{
+			"title": "LoseIt: Diet and Exercise App",
+			"link": "https://www.loseit.com/",
+			"image": "https://assets.loseit.com/website/corporate/LoseIt_Logo_FullColor+(1).svg"
+		},
+		{
+			"title": "Strava: Fitness Tracking App",
+			"link": "https://www.strava.com/",
+			"image": ""
+		},
+		{
+			"title": "Nike Training Club: Workout App",
+			"link": "https://www.nike.com/training/",
+			"image": "https://static.nike.com/a/images/f_auto/dpr_1.6,cs_srgb/w_1076,c_limit/2b5aad98-3a9c-401e-b1e2-83ead379da56/nike-training-shoes-apparel-gear.jpg"
+		},
+		{
+			"title": "Fitbit: Fitness Tracker",
+			"link": "https://www.fitbit.com/",
+			"image": "https://www.fitbit.com/global/content/dam/fitbit/global/product-logos/fitbit-new-logo-header.svg"
+		},
+		{
+			"title": "Peloton: Home Workout App",
+			"link": "https://www.onepeloton.com/",
+			"image": "https://res.cloudinary.com/peloton-cycle/image/fetch/dpr_1.0,f_auto,q_auto:good,w_600/https://images.ctfassets.net/7vk8puwnesgc/3Tygq87mpjCysd6dRomamP/d8a7b4f46a0c45eb3ff95a1a2e186d84/strength.png"
+		}
+	] 
+}

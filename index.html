@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+		/>
+
+		<script src="./js/script.js" defer></script>
+		<script src="./js/bootstrap.bundle.min.js" async></script>
+	</head>
+	<body>
+		<!-- <nav></nav> -->
+		<div class="nav-open-button">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<!-- <div class="modalFit"> -->
+		<div class="modalFit hidden">
+			<!-- <button class="btn--close-modal">&times;</button> -->
+			<h2 class="modal__header">
+				Get Physically Fit <br />
+				in just <span class="highlight">3 Months</span>
+			</h2>
+			<form class="modal__form">
+				<label>Name</label>
+				<input type="text" class="name-input" />
+				<label>Age</label>
+				<input type="number" class="age-input" />
+				<label>BMI</label>
+				<input type="number" class="bmi-input" />
+				<button class="btn btn--submit-modal">Continue &rarr;</button>
+			</form>
+		</div>
+		<div class="overlay hidden"></div>
+
+		<!-- NAVIGATION BAR -->
+		<nav class="nav hidden">
+			<div class="nav-box">
+				<ul>
+					<li class="link">
+						<a href="#">Home</a>
+					</li>
+					<li class="link">
+						<a href="#about-us">About Us</a>
+					</li>
+					<li class="link">
+						<a href="#procedure-category">Procedure Category</a>
+					</li>
+					<li class="link">
+						<a href="#testimonials">Testimonials</a>
+					</li>
+					<li class="link">
+						<a href="#appointment">Book an Appointment</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- LANDING PAGE -->
+		<div class="container-fluid landing-page">
+			<div class="container">
+				<span class="greeting">With CuraTech</span>
+				<h1 class="w-sm-75">
+					Keep fit 
+					Moving Young
+				</h1>
+				<a href="#appointment" class="py-4 px-4">BECOME A MEMBER</a>
+			</div>
+		</div>
+
+		<!-- ABOUT US -->
+		<div class="container-fluid about-us py-5" id="about-us">
+			<div class="col-lg-8 mx-auto col-12">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="img">
+							<!-- <img src="/design/about-us.webp" height="500" alt=""> -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="text">
+							<div class="">
+								<h1>ABOUT US</h1>
+								<p>
+									At CuraTech, we are dedicated to enhancing the quality of life for elderly individuals with limited mobility. Our mission is to empower seniors to maintain physical activity, promote better health, and support independence through a user-friendly digital platform. We understand the unique challenges faced by seniors with mobility limitations and are committed to providing accessible, safe, and engaging solutions that encourage consistent exercise. By incorporating personalized treatment plans, gamified exercise tracking, and health monitoring, we aim to inspire confidence and joy in staying active, one step at a time. Together, let’s build a healthier future for our elderly community.
+								</p>
+								<div class="row">
+									<div class="col-6">
+										<div class="about-sub p-4 rounded bg-white my-3">
+											<h2 style="color: #e16521" class="fs-1 mb-4">
+												<i class="bi bi-database"></i>
+											</h2>
+											<h2 class="text-dark fw-bold fs-1 my-3">10</h2>
+											<p class="text-dark fw-bold fs-4 my-3">Active Members</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="about-sub p-4 rounded bg-white my-3">
+											<h2 style="color: #e16521" class="fs-1 mb-4">
+												<i class="bi bi-journal-album"></i>
+											</h2>
+											<h2 class="text-dark fw-bold fs-1 my-3">$0.001 M</h2>
+											<p class="text-dark fw-bold fs-4 my-3">Total Donation</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="about-sub p-4 rounded bg-white my-3">
+											<h2 style="color: #e16521" class="fs-1 mb-4">
+												<i class="bi bi-people"></i>
+											</h2>
+											<h2 class="text-dark fw-bold fs-1 my-3">1,000</h2>
+											<p class="text-dark fw-bold fs-4 my-3">Exercise Hour</p>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="about-sub p-4 rounded bg-white my-3">
+											<h2 style="color: #e16521" class="fs-1 mb-4">
+												<i class="bi bi-people"></i>
+											</h2>
+											<h2 class="text-dark fw-bold fs-1 my-3">98%</h2>
+											<p class="text-dark fw-bold fs-4 my-3">Satisfaction Rate</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- PROCEDURE CATEGORY -->
+		<div class="container-fluid category" id="procedure-category" style="background-color: #151515">
+			<div class="container p-5">
+				<h1 class="text-center">CATEGORY</h1>
+				<p class="text-center">
+					Join us in transforming lives by helping elderly individuals with limited mobility experience the joy and health benefits of regular, tailored exercise.
+				</p>
+				<div class="row">
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/category2.webp" class="w-100" alt="" />
+							<div class="categories-details show-modal health">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Health Monitoring</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/category2.webp" class="w-100" alt="" />
+							<div class="categories-details show-modal exercise_monitoring">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Exercise Monitoring</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/diet-category.jpg" class="w-100" alt="" />
+							<div class="categories-details show-modal fitness">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Personalised Training</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/resources-category.jpg" class="w-100" alt="" />
+							<div class="categories-details show-modal resources">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Gamifications</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/category2.webp" class="w-100" alt="" />
+							<div class="categories-details show-modal fitness">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Community</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 mx-auto">
+						<div class="categories-post my-4">
+							<img src="./design/category2.webp" class="w-100" alt="" />
+							<div class="categories-details show-modal diet">
+								<div class="categories-text">
+									<div class="border-line"></div>
+									<a class="">Personalised Diet</a>
+									<div class="border-line"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-category hidden">
+			<div class="modal-close">&times;</div>
+			<div class="modal_head">
+				<h2 class="modal-cat-text">
+					👋 Divine here are your
+					<span class="highlight activity">workouts</span>
+				</h2>
+			</div>
+			<div class="modal-body">
+				<!-- 				
+				<div class="workout">
+					<div class="img-cont"><img src"" alt="" /></div>
+					<div class="workout_name">🚴 Cycling</div>
+				</div>
+				<div class="workout"></div> -->
+
+				<!-- <div class="message">
+					💥 Could Not Get workouts.. Check your internet Connection
+				</div> -->
+				<div class="loading hidden"></div>
+			</div>
+		</div>
+
+		<!-- TESTIMONIALS -->
+		<div class="container-fluid testimonials p-5 overflow-hidden" id="testimonials">
+			<h1 class="text-center mb-2 text-white my-5">TESTIMONIALS</h1>
+			<p class="text-center fs-3 fw-bold text-white mb-5">
+				What Our Happy Clients Says...
+			</p>
+			<div class="container my-5">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div
+							class="testimony p-sm-2 p-md-5"
+							style="background-color: #e1e1e1"
+						>
+							<div class="d-flex">
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+							</div>
+							<p class="mt-3 text-dark fs-2">
+								I never thought I'd enjoy exercise again, but these gentle routines have made me feel stronger and more independent every day! 
+							</p>
+							<div class="d-flex align-items-center mt-4">
+								<div class="client">
+									<img
+										src="./design/customer-1.jpg"
+										class="img-fluid"
+										alt=""
+										style="width: 80px; height: 80px; border-radius: 50%"
+									/>
+								</div>
+								<div class="d-block ms-3">
+									<p class="fw-bold mb-1 text-dark fs-2">Ms Chua</p>
+									<p class="text-dark fs-4">Clementi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div
+							class="testimony mt-sm-5 p-sm-2 p-md-5"
+							style="background-color: #e1e1e1"
+						>
+							<div class="d-flex">
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+								<i
+									class="fa fa-star fs-5 mx-1"
+									style="color: #e16521"
+									aria-hidden="true"
+								></i>
+							</div>
+							<p class="mt-3 text-dark fs-2">
+								This program has helped me keep moving at my own pace. I feel healthier, and it’s wonderful to feel connected with others through our shared progress.
+							</p>
+							<div class="d-flex align-items-center">
+								<div class="client">
+									<img
+										src="./design/customer-2.jpg"
+										class="img-fluid"
+										alt=""
+										style="width: 80px; height: 80px; border-radius: 50%"
+									/>
+								</div>
+								<div class="d-block ms-3">
+									<p class="fw-bold mb-1 text-dark fs-2">Mr Tan</p>
+									<p class="text-dark fs-4">Outram Park</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- WHY PEOPLE CHOOSE US -->
+		<div
+			class="container-fluid why-choose-us"
+			style="background-color: #151515"
+		>
+			<div class="container">
+				<h1>Why People Choose Us</h1>
+				<p>
+					People choose us because we prioritize safe, accessible, and enjoyable exercise programs tailored specifically for elderly individuals with limited mobility. Our approach combines expert guidance, personalized care, and innovative tools like health monitoring and gamification to make exercise motivating, achievable, and impactful for seniors. With a commitment to improving quality of life and fostering independence, we stand out as a trusted partner in supporting healthier, more active lives for our elderly community members.
+				</p>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/support.webp" alt="" />
+							<h1>SUPPORT 24/24</h1>
+							<p>
+								One of the best ways to make a great vacation quickly horrible
+								is to choose the wrong accommodations for your trip.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/trainer.webp" alt="" />
+							<h1>OUR TRAINERS</h1>
+							<p>
+								If you are an infrequent traveler you may need some tips to keep
+								the wife happy while you are jet setting around the globe.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/sessions.webp" alt="" />
+							<h1>PERSONALIZED SESSIONS</h1>
+							<p>
+								To succeed at any endeavor, you must stay the course…no matter
+								what the cost! Here are some surefire tips to help you on your
+								journey.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/equipment.webp" alt="" />
+							<h1>OUR EQUIPMENT</h1>
+							<p>
+								To succeed at any endeavor, you must stay the course…no matter
+								what the cost! Here are some surefire tips to help you on your
+								journey.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/classes.webp" alt="" />
+							<h1>CLASSES DAILY</h1>
+							<p>
+								To succeed at any endeavor, you must stay the course…no matter
+								what the cost! Here are some surefire tips to help you on your
+								journey.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-6">
+						<div class="px-4 py-5">
+							<img src="./design/icons/health.webp" alt="" />
+							<h1>FOCUS ON YOUR HEALTH</h1>
+							<p>
+								To succeed at any endeavor, you must stay the course…no matter
+								what the cost! Here are some surefire tips to help you on your
+								journey.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="appointment-area py-5" id="appointment">
+			<div class="container">
+				<h1 class="text-center my-md-5" style="font-size: 4.5rem;">BOOK AN APPOINTMENT</h1>
+				<div
+					class="row justify-content-center align-items-center appointment-wrap pt-md-5"
+				>
+					<div class="col-lg-5 col-md-6 col-10 mx-auto appointment-left">
+						<h1>Servicing Hours</h1>
+						<p>
+						
+Our AI-powered virtual assistant is available 24/7 to provide continuous support and guidance. This ensures you have access to assistance at any time, complementing our live agent support hours of 8:00 AM to 6:00 PM, Monday through Saturday. With our AI assistant, you can receive immediate responses to your inquiries, schedule appointments, and access personalized exercise recommendations whenever you need them.
+						</p>
+						<ul class="time-list">
+							<li class="d-flex justify-content-between">
+								<span>Monday - Friday</span>
+								<span>08.00 am to 10.00 pm</span>
+							</li>
+							<li class="d-flex justify-content-between">
+								<span>Monday - Friday</span>
+								<span>08.00 am to 10.00 pm</span>
+							</li>
+							<li class="d-flex justify-content-between">
+								<span>Sunday</span>
+								<span>08.00 am to 10.00 pm</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-11 mx-auto pt-60 pb-60">
+						<div class="appointment-right">
+							<form action="#" class="form-wrap">
+								<h3 class="pb-20 text-center mb-20">Book an Appointment</h3>
+								<input
+									type="text"
+									class="form-control"
+									name="name"
+									placeholder="Full Name"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Full Name'"
+								/>
+								<input
+									type="text"
+									class="form-control"
+									name="phone"
+									placeholder="Phone"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Phone'"
+								/>
+								<input
+									type="email"
+									class="form-control"
+									name="email"
+									placeholder="Email Address"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Email Address'"
+								/>
+								<input
+									id="datepicker1"
+									name="dop"
+									class="dates form-control"
+									placeholder="Date of Birth"
+									type="text"
+								/>
+								<input
+									id="datepicker2"
+									class="dates form-control"
+									placeholder="appointment Date"
+									type="text"
+								/>
+								<textarea
+									name="messege"
+									class=""
+									rows="5"
+									placeholder="Messege"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Messege'"
+								></textarea>
+								<div class="text-center confirm_btn_box">
+									<button class="main_btn text-uppercase">
+										Confirm Booking
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="container-fluid footer bg-dark py-5">
+			<div class="container my-5">
+				<div class="row gx-5">
+					<div class="col-md-3 col-6">
+						<div class="">
+							<div class="d-flex mb-5">
+								<img src="./design/logo.png" alt="" class="" />
+								<h1 class="text-white ms-3 fs-1">MovingYoung</h1>
+							</div>
+							<p class="fs-4">
+								Despite growth of the Internet over the past seven years, the
+								use of toll-free phone numbers in television advertising
+								continues.
+							</p>
+							<h1 class="fs-2 mt-4">FOLLOW US</h1>
+							<div class="d-flex my-4">
+								<div class="media">
+									<a href=""><i class="bi bi-facebook"></i></a>
+								</div>
+								<div class="media">
+									<a href=""><i class="bi bi-twitter"></i></a>
+								</div>
+								<div class="media">
+									<a href=""><i class="bi bi-google"></i></a>
+								</div>
+								<div class="media">
+									<a href=""><i class="bi bi-linkedin"></i></a>
+								</div>
+								<div class="media">
+									<a href=""><i class="bi bi-instagram"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-6">
+						<div class="text-center my-5 my-sm-0">
+							<h1 class="mb-5">OUR COMPANY</h1>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Category</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-6">
+						<div class="text-center my-5 my-sm-0">
+							<h1 class="mb-5">OUR COMPANY</h1>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Category</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Site Map</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-6">
+						<div class="#">
+							<h1 class="mb-5 text-center mb-5 mt-5 mt-sm-0">GET INFO</h1>
+							<div
+								class="my-3 d-flex justify-content-center align-items-center"
+							>
+								<a href=""<i class="bi bi-telephone-fill fs-1" style="color: #e16521;"></i></a>
+								<div class="d-block ms-3 info">
+									<h1 class="fs-3">Phone:</h1>
+									<p class="fs-4">97689516</p>
+								</div>
+							</div>
+							<div
+								class="my-3 d-flex justify-content-center align-items-center"
+							>
+								<a href=""><i class="bi bi-envelope-fill fs-1" style="color: #e16521;"></i></a>
+								<div class="d-block ms-4 info">
+									<h1 class="fs-3">Email:</h1>
+									<p class="fs-4">CuraTech@gmail.com</p>
+								</div>
+							</div>
+							<div
+								class="my-3 d-flex justify-content-center align-items-center"
+							>
+								<a href=""><i class="bi bi-geo-alt-fill fs-1" style="color: #e16521;"></i></a>
+								<div class="d-block ms-3 info">
+									<h1 class="fs-3">Adress:</h1>
+									<p class="fs-4">SUTD</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<p class="back2Top"><i class="bi bi-caret-up-square-fill"></i></p>
+
+		<div class="ticker-container">
+			<div id="ticker-content"></div>
+		</div>
+
+		
+	</body>
+</html>

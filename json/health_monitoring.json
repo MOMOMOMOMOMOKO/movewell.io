@@ -1,0 +1,81 @@
+{
+    "health_monitoring": [
+        {
+            "gender": "Male",
+            "age_group": "65-75",
+            "age_range":{
+                "from": 65,
+                "to": 75
+            },
+            "bmi_range": {
+                "from": 18.5,
+                "to": 24.9
+            },
+            "recommended_checkups": [
+                "Blood Pressure",
+                "Cholesterol",
+                "Blood Sugar",
+                "Bone Density",
+                "Eye Exam"
+            ]
+        },
+        {
+            "gender": "Female",
+            "age_group": "75-80",
+            "age_range":{
+                "from": 75,
+                "to": 80
+            },
+            "bmi_range": {
+                "from": 18.5,
+                "to": 24.9
+            },
+            "recommended_checkups": [
+                "Blood Pressure",
+                "Thyroid",
+                "Bone Density",
+                "Mammogram",
+                "Eye Exam"
+            ]
+        },
+        {
+            "gender": "Male",
+            "age_group": "75+",
+            "age_range":{
+                "from": 0,
+                "to": 100
+            },
+            "bmi_range": {
+                "from": 18.5,
+                "to": 24.9
+            },
+            "recommended_checkups": [
+                "Blood Pressure",
+                "Cholesterol",
+                "Blood Sugar",
+                "Bone Density",
+                "Prostate Exam",
+                "Hearing Test"
+            ]
+        },
+        {
+            "gender": "Female",
+            "age_group": "75+",
+            "age_range":{
+                "from": 75,
+                "to": 120
+            },
+            "bmi_range": {
+                "from": 18.5,
+                "to": 24.9
+            },
+            "recommended_checkups": [
+                "Blood Pressure",
+                "Thyroid",
+                "Bone Density",
+                "Mammogram",
+                "Hearing Test"
+            ]
+        }
+    ]
+}

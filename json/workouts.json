@@ -1,0 +1,103 @@
+{
+	"workouts": [
+		{
+			"bmi_range": {
+				"from": 0,
+				"to": 18.5
+			},
+			"workout": "Yoga",
+			"image_url": "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		{ 
+			"bmi_range": {
+				"from": 0,
+				"to": 18.5
+			},
+			"workout": "Pilates",
+			"image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 0,
+				"to": 18.5
+			},
+			"workout": "Resistance training",
+			"image_url": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 18.5,
+				"to": 24.9
+			},
+			"workout": "Jogging/running",
+			"image_url": "https://images.unsplash.com/photo-1578880981498-3d60436ba825?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=371&q=80"
+		},
+
+		{
+			"bmi_range": {
+				"from": 18.5,
+				"to": 24.9
+			},
+			"workout": "Swimming laps",
+			"image_url": "https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1150&q=80"
+		},
+
+		{
+			"bmi_range": {
+				"from": 18.5,
+				"to": 24.9
+			},
+			"workout": "Rollerblading/inline skating at a brisk pace",
+			"image_url": "https://images.unsplash.com/photo-1628220650326-e14e418b6bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=425&q=80"
+		},
+
+		{
+			"bmi_range": {
+				"from": 24.9,
+				"to": 29.9
+			},
+			"workout": "Cycling",
+			"image_url": "https://images.unsplash.com/photo-1541625602330-2277a4c46182?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 24.9,
+				"to": 29.9
+			},
+			"workout": "Zumba",
+			"image_url": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 24.9,
+				"to": 29.9
+			},
+			"workout": "HIIT",
+			"image_url": "https://images.unsplash.com/photo-1616279969856-759f316a5ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 30,
+				"to": 100
+			},
+			"workout": "Walking",
+			"image_url": "https://images.unsplash.com/photo-1596247825134-b51b977ec0a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 30,
+				"to": 100
+			},
+			"workout": "Water aerobics",
+			"image_url": "https://images.unsplash.com/photo-1582752452509-1f278716bace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+		},
+		{
+			"bmi_range": {
+				"from": 30,
+				"to": 100
+			},
+			"workout": "Strength training",
+			"image_url": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+		}
+	]
+}
